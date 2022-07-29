@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "The Ancient One",
+    "version": "1.0",
+    "description": "Your Advisor",
+    
+    "icons": {
+      "16": "tibetan.png",
+      "32": "tibetan.png",
+      "48": "tibetan.png",
+        "128": "tibetan.png"
+      },
+
+    "optional_permissions": ["tabs"],
+    
+    "action": {
+        "default_title": "The Ancient One",
+        "default_popup": "popup.html",
+        "default_icon": "tibetan.png"
+      }
+}

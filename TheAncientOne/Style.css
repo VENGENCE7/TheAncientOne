@@ -1,0 +1,71 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 100px;
+    width: 400px;
+    background: #1D1F20;
+}
+
+.p1{
+    background: bisque;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 0.45em;
+    width: 90%;
+}
+
+.AD-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: #FFFFFF;
+    width: 95%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box {
+    margin-bottom: 1%;
+    max-width: 95%;
+    --borderWidth: 2px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+ 
+.box:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+  
+@keyframes animatedgradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
