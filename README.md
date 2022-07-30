@@ -15,11 +15,13 @@
 
 
 # The Ancient One
-Chrome Extension to provide you with advices when your low.
+Chrome Extension to provide you with advices when your low and need motivation.Idea behind this was to provide inspiration and the push to do things and execute ideas.
+Built it in order to learn a little about extension development.Used the latest **manifest V3**.
+
+- &ensp; **_To use it just click once on it_**
+
+_XD ik i named it after the character from the marvel movie Doctor Strange_ 
 <br />
-To use it just clock once on it
-<br />
-XD ik i named it after the character from the marvel movie Doctor Strange 
 
 <!-- TABLE OF CONTENTS -->
 <details>
