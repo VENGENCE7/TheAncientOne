@@ -32,6 +32,9 @@ XD ik i named it after the character from the marvel movie Doctor Strange
             <li><a href="#2-download-and-extract">Download & Extract</a></li>
         </ul>
     <li><a href="#installation">Installation</a></li>
+        <ul>
+            <li><a href="#loading-the-extension-in-browser">Load Extension</a></li>
+        </ul>
   </ol>
 </details>
 
@@ -51,7 +54,7 @@ XD ik i named it after the character from the marvel movie Doctor Strange
  <!-- Clone the Repo -->
 ### 1: Clone the repo
 + Via https 
-   ```sh
+   ```
    https://github.com/VENGENCE7/TheAncientOne.git
    ```
 + Via Github CLI
@@ -66,14 +69,26 @@ XD ik i named it after the character from the marvel movie Doctor Strange
  
 <!-- Installations -->
 ## Installation
+
++ Go to the below _Extensions_ page using the address below
+```
+chrome://extensions/
+```
+
+**OR**
+
 1. Open `Chrome Browser`.
 2. Go to the `Three dots` on _top Right_.
 3. We need to go to `Select More Tools`.
 4. Choose `Extensions` from the browser menu.
 5. It redirects to the extensions page in Chrome. 
-6. Make sure to enable the `Developer mode` on _top Right_ here.
-7. Once that's done, you need to click the `Load unpacked button` which will allow us to load our project in the Chrome extension store.
-8. Select the folder containing `manifest.json` file.
+
+<!-- Load the Extension -->
+### Loading the Extension in browser
+
+1. Make sure to enable the `Developer mode` on _top Right_ here.
+2. Once that's done, you need to click the `Load unpacked button` which will allow us to load our project in the Chrome extension store.
+3. Select the folder containing `manifest.json` file.
 
 **Now, the extension is available in our Chrome extension dashboard. You can also pin the extension in the browser**
 
